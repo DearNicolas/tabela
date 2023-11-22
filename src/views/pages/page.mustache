@@ -1,24 +1,18 @@
-{{>partials/header}}
-
-{{#banner}}
-<section class="banner" style="background-image: url('images/{{background}}')">{{ title }}</section>
-<h2>{{ title }} disponíveis para adoção</h2>
-{{/banner}}
+{{! {>partials/header}} 
 
 
 <div class="container list">
     {{#list}}
     <div class="item">
-        <img src="images/{{ image }}" class="item--image" />
-        <div class="item--name">{{name}}</div>
-        <div class="item--color">Cor: {{ color }}</div>
-        <div class="item--genre">Gênero: {{ sex }}</div>
+        <div class="item--name">{{Cidade}}</div>
+        <div class="item--color">Total: {{ Total }}</div>
+        <div class="item--genre">Mês: {{ Mes }}</div>
     </div> 
     {{/list}}
 
     {{^list}}
     <div class="container-no-list">
-    <h2>Não há animais disponiveis nestas condições</h2>
+    <h2>Não há cidades neste Mês</h2>
 
 
     </div>
@@ -26,4 +20,4 @@
 
 
 
-{{>partials/footer}}
+{{! {{>partials/footer}} 
