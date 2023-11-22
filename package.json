@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DearNicolas/nodets-canil.git"
+    "url": "https://github.com/DearNicolas/tabela.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DearNicolas/nodets-canil/issues"
+    "url": "https://github.com/DearNicolas/tabela.git/issues"
   },
-  "homepage": "https://github.com/DearNicolas/nodets-canil#readme",
+  "homepage": "https://github.com/DearNicolas/tabela.git#readme",
   "dependencies": {
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
