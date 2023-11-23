@@ -1,9 +1,11 @@
 body{
     background-color:#F8F8FF;
 }
+
 .c{
     color:aliceblue
 }
+
 h1{
 
     width: 100%;
@@ -16,12 +18,14 @@ h1{
 
     background: #CDC9C9;
     color: #4f4f4f;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-bottom: 5px;
 }
+
 h2{
     font-family: Arial, Helvetica, sans-serif;
+    color: #4f4f4f;
 }
 
 img{
@@ -39,18 +43,14 @@ th, td {
     margim: auto;
 }
 
-input{
-    margin: auto;
-}
-
 figure{
-    padding: 5px;
+    padding: 50px;
     margin:150px;
 }
 
 figcaption{
-    text-align: center;
-    padding: 7px;
+    text-align: left;
+    padding: 10px;
     font-size: 40px;
     color: #4f4f4f;
     font-family: 'Prompt', sans-serif;
@@ -61,20 +61,23 @@ label{
     margin-top: 40px;
 }
 
-input {
-
-}
-
-.te{
-    padding:10px;
-    width:800px;
+input{
+    padding:15px;
+    width:900px;
     outline:0;
     border: 3px solid #D3D3D3;
 }
 
-.em{
+input[type="submit"]{
     padding:10px;
-    width:800px;
+    width:80px;
     outline:0;
-    border: 3px solid #D3D3D3;
+    border: 3px solid #DCDCDC;
+}
+
+input [type="image"]{
+    padding:10px;
+    width:80px;
+    outline:0;
+    border: 3px solid #DCDCDC; 
 }
