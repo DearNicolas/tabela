@@ -1,6 +1,6 @@
 
 
-const data = [
+let data = [
     {
            "Total": "42",
            "Mes": "1",
@@ -59,3 +59,13 @@ export const tabela = {
     },
 
 };
+
+function pegarNomeMes (numeroDoMes: number) { 
+    let mouth = [
+        'janeiro','Fevereiro','março','abril','junho','julho','agosto','setembro','outubro'
+    ]
+    return mouth[numeroDoMes - 1] || 'Mẽs não encontrado'
+}
+
+
+

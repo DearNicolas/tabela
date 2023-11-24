@@ -1,23 +1,99 @@
 {{! {>partials/header}} 
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/css/.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
+
+    <body>
+        <head>
+            <h1>AFONSO CLÁUDIO</h1>
+            <br>
+        </head>
+        <br>
+        <hr>
+        <h2>grafico de vendas mensal:</h2>
+        <hr>
+        <br>
+        <img src="../public/images/grafico.png" 
+        width="70%"
+        height="70%">
+        <br>
+        <hr>
+        <h2>tabela de vendas mensais:</h2>
+        <hr>
+        <br>
+        <table 
+            width="40%" 
+            border="4" 
+            bordercolor=#BEBEBE
+            cellspacing="10" 
+            cellpadding="4" 
+            bgcolor="#DCDCDC" id="afc"
+        >   
+        <tr> 
+        <th class="c"  bgcolor="#6C7B8B">vendas</th>
+
+        <th class="c" 
+        bgcolor="#6C7B8B">mes</th>
+        </tr>
+        <tr>
+        <th>42</th>
+        <th>1</th>
+        </tr>
+
+        <tr>
+        <th>22</th>
+        <th>2</th>
+        </tr>
+
+        <tr>
+        <th>25</th>
+        <th>3</th>
+        </tr>
+
+        <tr>
+        <th>25</th>
+        <th>4</th>
+        </tr>
+
+        <tr>
+        <th>20</th>
+        <th>5</th>
+        </tr>
 
 
-<div class="container list">
-    {{#list}}
-    <div class="item">
-        <div class="item--name">{{Cidade}}</div>
-        <div class="item--color">Total: {{ Total }}</div>
-        <div class="item--genre">Mês: {{ Mes }}</div>
-    </div> 
-    {{/list}}
+        <tr>
+        <th>26</th>
+        <th>6</th>
+        </tr>
 
-    {{^list}}
-    <div class="container-no-list">
-    <h2>Não há cidades neste Mês</h2>
+        <tr>
+        <th>27</th>
+        <th>7</th>
+        </tr>
 
+        <tr>
+        <th>27</th>
+        <th>8</th>
 
-    </div>
-    {{/list}}
+        </tr>
 
+        <tr>
+        <th>36</th>
+        <th>9</th>
+        </tr>
 
+        <tr>
+        <th>27</th>
+        <th>10</th>
+        </tr>
 
+        </table>
+    </body>
+</html>
 {{! {{>partials/footer}} 
