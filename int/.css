@@ -44,6 +44,7 @@ th, td {
     padding: 50px, 10px;
     font-family: 'Prompt', sans-serif;
     font-size: 30px;
+    color: #4f4f4f;
 
 }
 
@@ -86,9 +87,11 @@ input [type="image"]{
     border: 3px solid #DCDCDC; 
 }
 
+hr{
+    color: #D3D3D3;
+}
+
 .img{
     padding:10px;
-    width:80px;
-    outline:0;
-    border: 3px solid #DCDCDC; 
+    width:50px;
 }
