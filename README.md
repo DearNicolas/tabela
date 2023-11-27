@@ -1,8 +1,8 @@
 # tabela
 
 
-### Pré-requisitos globais:
-`npm i -g nodemon typescript ts-node`
+### Pré-requisitos globais:ts-node
+`npm i -g nodemon typescript `
 
 ### Instalação
 `npm install`
