@@ -1,5 +1,3 @@
-
-
 let data = [
     {
            "Total": "42",
@@ -28,12 +26,12 @@ let data = [
        },
        {
            "Total": "26",
-           "Mes": "6",
+            "Mes": "6",
            "Cidade": "\"AFONSO CLÁUDIO\""
        },
        {
            "Total": "27",
-           "Mes": "7",
+           "Mes":"7",
            "Cidade": "\"AFONSO CLÁUDIO\""
        },
        {
@@ -52,17 +50,19 @@ let data = [
            "Cidade": "\"AFONSO CLÁUDIO\""
        }
    ];
-
 export const tabela = {
     getAll:() => {
         return data;
     },
-
 };
-
- export function pegarNomeMes (numeroDoMes: number) { 
+export function pegarNomeMes (numeroDoMes: number) { 
     let mouth = [
         'janeiro','Fevereiro','março','abril','junho','julho','agosto','setembro','outubro'
     ]
     return mouth[numeroDoMes - 1] || 'Mẽs não encontrado'
-}
+};
+
+let numero = 7;
+let mes = pegarNomeMes(numero);
+
+console.log(mes)
